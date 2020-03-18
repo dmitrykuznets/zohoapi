@@ -1,0 +1,2 @@
+A python application that checks the list of client on an internal DB and using ZOHO API it downloads all tables and data from all of the applications of client's account. Only API username and password needs to be provided. 
+Application designed to do soft updates every few minutes and full updates every day. It can be run fully autonomously without any user involvement with a small bash script and a Rundeck tool to keep all data downloading automatically from all ZOHO applications to any cloud or local database
